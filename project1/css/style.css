@@ -1,0 +1,215 @@
+
+body{
+	/*background:#000 url(../images/img02.png) no-repeat top left;*/
+	/*background:#000 url(../images/290332_398373974962_1718242865_o.jpg) no-repeat top left;*/
+	/*background:#000 url(../images/body3.jpg); background-repeat:no-repeat; top:0; left:0; background-size:cover;*/
+	margin:0;
+	padding:0;
+	font-family: 'Jeju Gothic', serif;
+}
+
+span.reference{
+	/*font-family:Arial;*/
+	font-family: 'Jeju Gothic', serif;
+	text-transform:uppercase;
+	position:fixed;
+	right:95px;
+	bottom:10px;
+	font-size:11px;
+	text-shadow:1px 1px 1px #000;
+}
+span.reference a{
+	color:#aaa;
+	text-decoration:none;
+	margin-right:20px;
+}
+span.reference a:hover{
+	color:#ddd;
+}
+.title{
+	position:absolute;
+	right:10px;
+	top:50%;
+	width:91px;
+	height:675px;
+	margin-top:-350px;
+	overflow:hidden;	
+	/*background:transparent url(../images/ss.png) no-repeat top left;*/
+	background:transparent url(../images/title2.png); 
+}
+			
+			
+.cc_menu{ 
+	width:100%; /*150px * 5*/
+	height:670px;
+	font-size:14px;
+	text-transform:uppercase;
+	opacity:0.9;
+	color:#fff;
+	top:50%;
+	position:absolute;
+	margin-top:-350px;
+	overflow:hidden;	
+}
+.cc_item{
+	text-align:center;
+	width:150px;
+	height:675px;
+	float:left;
+	border-bottom:1px solid #000;
+	background:#444 url(../images/bg2.png) repeat top left;
+	position:relative;
+	-moz-box-shadow:3px -3px 10px #000;
+	-webkit-box-shadow:3px -3px 10px #000;
+	box-shadow:3px -3px 10px #000;
+}
+span.cc_title{
+	color:#fff;
+	font-size:16px;
+	top:200px;
+	left:10px;
+	position:absolute;
+	padding:3px 0px;
+	background:#333;
+	width:130px;
+	display:block;
+	z-index:11;
+	-moz-box-shadow:1px 1px 4px #000;
+	-webkit-box-shadow:1px 1px 4px #000;
+	box-shadow:0px 1px 4px #000;
+}
+.cc_submenu ul{
+	list-style:none;
+	width:150px;
+	margin:0;
+	padding:0;
+	height:0px; /*increase to 200px to slide up*/
+	overflow:hidden;
+	text-align:left;
+	background:#000;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	opacity:0.7;
+	z-index:13;
+}
+.cc_submenu ul li{
+	color:#ddd;
+	cursor:pointer;
+	padding:10px;
+}
+.cc_item img{
+	position:absolute;
+	width:150px;
+	height:675px;
+	top:-675px;
+	left:0px;
+}
+
+.cc_content{
+	width:800px;
+	height:675px;
+	border-bottom:1px solid #000;
+		margin-left:0px;
+		left:-800px;
+	position:relative;
+	background:#000000 url(../images/bg_white.png) repeat top left;
+	overflow:hidden;
+	/*
+	overflow-y:auto;
+	scrollbar-face-color:#242424;     
+	scrollbar-track-color: #000000;     
+	scrollbar-arrow-color: #242424;   
+	*/ 
+	-moz-box-shadow:4px 0 7px #000;
+	-webkit-box-shadow:4px 0 7px #000;
+	box-shadow:4px 0 7px #000;
+}
+.cc_content div{
+	display:none;
+	margin:20px;
+}
+.cc_content p{
+	text-align:center;
+	right:10px;
+	padding:20px;
+	opacity:0.7;
+}
+.cc_content_14 p,.cc_content_15 p,.cc_content_16 p,.cc_content_17 p,.cc_content_18 p{
+	text-align:center;
+	right:10px;
+	padding:20px;
+	opacity:0.7;
+}
+.cc_content_4 p{
+	position:absolute;
+	margin-top:-40px;
+	left:0%;
+	margin-left:-20%;
+	text-align: center;
+}
+.cc_content_2 p{
+	position:absolute;
+	margin-top:-40px;
+	left:0%;
+	margin-left:-20%;
+	text-align: center;
+}
+
+.cc_content_2 p,.cc_content_4 p,.cc_content_11 p,.cc_content_12 p,.cc_content_14 p,.cc_content_15 p,.cc_content_16 p,.cc_content_17 p{
+	position:absolute;
+	margin-top:-40px;
+	left:0%;
+	margin-left:-10%;
+	text-align: center;
+}
+
+
+.cc_content_1 p,.cc_content_3 p,.cc_content_5 p,
+.cc_content_7 p,.cc_content_8 p,.cc_content_9 p,.cc_content_10 p,
+.cc_content_13 p{
+	margin-left: -190px;
+	margin-top: -45px;
+}
+
+
+span.cc_back{
+	position:absolute;
+	bottom:20px;
+	left:85%;
+	cursor:pointer;
+	color:#222;
+/*	background-color: #fff;*/
+	background: url(../images/gobback_2.png) repeat top left;
+	width: 80px;
+	height: 20px;
+	padding: 5px;
+	z-index: 1;
+}
+/* 2014.11.12 jaeyoung add */
+
+/*2014.10.14 jinhee add*/
+#wrap{
+	position:absolute;
+	z-index:-1; 
+	top:0; 
+	left:0; 
+	background-color:black;
+}
+
+#wrap img.bgfade{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+	display:none;
+	z-index:-1;
+}
+img{border:0;}
+/*2014.10.10 jinhee add*/
+.notice{position:absolute; background-color:#000000; width:555px; height:550px; top:70px; left:22px;}
+.notice ul{position:absolute; text-align:left; list-style:none;}
+.notice ul li{cursor:pointer; padding:10px; width:450px;}
+#popUp{position:absolute; display:none; background-color:#ffffff; border:solid 2px #d0d0d0; width:1010px; height:581px; padding:10px;}
+.ifm1{border:0; top:10px; left:10%; position:absolute; overflow:hidden;}
